@@ -28,21 +28,13 @@ export class ProductsComponent implements OnInit{
     this.products = this.productService.products;
   }*/
   ngOnInit(): void {
-
       this.productService.getAllProducts().subscribe({
-
         next: resp => {
-
           this.products = resp;
-
         },
-
         error: err => {
-
           console.log(err);
-
         }
-
       });
   }
 
@@ -51,20 +43,13 @@ export class ProductsComponent implements OnInit{
 
     if (confirmation) {
       this.productService.deleteProduct(prod).subscribe({
-
         next: resp => {
-
           this.products = resp;
           window.location.reload();
-
         },
-
         error: err => {
-
           console.log(err);
-
         }
-
       });
     }
   }
