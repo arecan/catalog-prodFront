@@ -12,6 +12,25 @@
 #After Delete
 ![WhatsApp Image 2025-06-15 à 23 15 09_d5106766](https://github.com/user-attachments/assets/045011ff-d8da-4ff5-9c10-bc60d3565b7a)
 
+# Structure Projet_frontEnd (Angular)
+![image](https://github.com/user-attachments/assets/e2aa5faa-4d95-45f4-a124-499453e81bc9)
+
+#App html
+![image](https://github.com/user-attachments/assets/2595cbd7-017b-4280-bc37-41324be7802d)
+
+#Product_service
+![image](https://github.com/user-attachments/assets/8705bd49-2e9c-41c7-9600-32236042eaf1)
+
+# Product Component
+![image](https://github.com/user-attachments/assets/46c2ff25-72d6-49cc-80ed-5fb036a7fe54)
+
+
+
+
+
+
+
+
 
 
 
