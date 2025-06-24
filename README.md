@@ -24,6 +24,10 @@
 # Product Component
 ![image](https://github.com/user-attachments/assets/46c2ff25-72d6-49cc-80ed-5fb036a7fe54)
 
+# Model Product
+![image](https://github.com/user-attachments/assets/ec8811ce-a92a-46ab-b19e-6644b946059d)
+
+
 
 
 
