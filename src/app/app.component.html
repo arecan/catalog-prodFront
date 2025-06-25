@@ -1,7 +1,9 @@
-<div class="p-3">
-  <nav>
-    <button routerLink="/home" class="btn btn-primary m-2">Home</button>
-    <button routerLink="/products" class="btn btn-primary">Products</button>
-  </nav>
-  <router-outlet></router-outlet>
+<div class="app-container">
+<div class="p-5 d-flex flex-column align-items-center justify-content-center min-vh-100 bg-light">
+    <nav class="mb-4 d-flex gap-3">
+        <button routerLink="/home" class="btn btn-purple px-4 py-2">Home</button>
+        <button routerLink="/products" class="btn btn-purple px-4 py-2">Products</button>
+    </nav>
+    <router-outlet></router-outlet>
+</div>
 </div>

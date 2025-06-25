@@ -18,15 +18,6 @@ export class ProductsComponent implements OnInit{
 
   constructor(private productService: ProductService) {
   }
-
-  /*ngOnInit(): void {
-    this.products = this.productService.getAllProducts();
-  }
-
-  deleteProduct(id: number) {
-    this.productService.deleteProduct(id);
-    this.products = this.productService.products;
-  }*/
   ngOnInit(): void {
       this.productService.getAllProducts().subscribe({
         next: resp => {
@@ -37,7 +28,6 @@ export class ProductsComponent implements OnInit{
         }
       });
   }
-
   deleteProduct(prod: Product): void {
     const confirmation = confirm('Êtes-vous sûr de vouloir supprimer ce produit ?');
 
